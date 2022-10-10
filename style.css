@@ -1,0 +1,142 @@
+/* Basics */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Poly', serif;
+}
+
+a {
+  font-family: 'Mada', sans-serif;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Mada', sans-serif;
+}
+
+/* Important global classes */
+.navBarText {
+  font-size: 1.25rem;
+}
+
+
+/* Main title */
+#theMainHook {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#theBigDealTitle {
+  font-style: italic;
+  font-size: 10rem;
+  word-break: break-all;
+  text-align: center;
+}
+
+#theKindOfDealSubtitle {
+  font-weight: 400;
+  font-size: 1.7rem;
+  word-break: break-all;
+  text-align: center;
+}
+
+#hookBreak {
+  margin: 6%;
+  border-top: 0.15rem solid black;
+  animation-name: hrOpen;
+  animation-duration: 2s;
+}
+
+#myLinks {
+  text-align: center;
+}
+
+#myLinks > * {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Top nav bar */
+#floatingNavBarWrapper {
+  width: 100%;
+  margin: 1rem;
+  position: fixed;
+  text-align: center;
+}
+
+#arrowNavBar {
+  opacity: 0%;
+  margin: 1.5rem;
+}
+
+#floatingNavBar {
+  padding: 0.8em;
+  margin: auto;
+  width: max-content;
+  background-color: white;
+  border: 0.15rem solid black;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Animations */
+@keyframes hrOpen {
+  from {
+    margin: 1%;
+    opacity: 0%;
+  }
+
+  80% {
+    opacity: 100%;
+  }
+
+  to {
+    margin: 6%;
+  }
+}
+
+@keyframes animFadeIn {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes animFadeOut {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+.fadeIn {
+  animation-name: animFadeIn;
+  animation-duration: 0.5s;
+  opacity: 100%;
+}
+
+.fadeOut {
+  animation-name: animFadeOut;
+  animation-duration: 0.5s;
+  opacity: 0%;
+}
+
+
+/* pauxxs@proton.me the email btw */

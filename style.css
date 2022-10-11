@@ -69,13 +69,16 @@ p {
 /* Top nav bar */
 #floatingNavBarWrapper {
   width: 100%;
-  margin: 1rem;
+  margin-top: 2rem;
   position: fixed;
   text-align: center;
+  animation: floatingNav;
+  animation-duration: 2s;
 }
 
 #arrowNavBar {
   opacity: 0%;
+  user-select: none;
   margin: 1.5rem;
 }
 
@@ -103,6 +106,16 @@ p {
 
   to {
     margin: 6%;
+  }
+}
+
+@keyframes floatingNav {
+  from {
+    top: -6rem;
+  }
+
+  to {
+    top: 0;
   }
 }
 

@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Poly', serif;
 }
 
@@ -26,6 +26,18 @@ p {
   font-size: 1.25rem;
 }
 
+
+.fadeIn {
+  animation-name: animFadeIn;
+  animation-duration: 0.5s;
+  opacity: 100%;
+}
+
+.fadeOut {
+  animation-name: animFadeOut;
+  animation-duration: 0.5s;
+  opacity: 0%;
+}
 
 /* Main title */
 #theMainHook {
@@ -138,18 +150,6 @@ p {
   to {
     opacity: 0%;
   }
-}
-
-.fadeIn {
-  animation-name: animFadeIn;
-  animation-duration: 0.5s;
-  opacity: 100%;
-}
-
-.fadeOut {
-  animation-name: animFadeOut;
-  animation-duration: 0.5s;
-  opacity: 0%;
 }
 
 

@@ -79,6 +79,7 @@ p {
 #arrowNavBar {
   opacity: 0%;
   user-select: none;
+  pointer-events: none; /* <<-- 0_0 */
   margin: 1.5rem;
 }
 

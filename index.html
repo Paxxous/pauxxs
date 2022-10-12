@@ -16,17 +16,19 @@
   </head>
 
   <body>
+    <!-- Main floating navigation bar -->
     <nav id="floatingNavBarWrapper">
      <div id="floatingNavBar">
         <div id="link">
-          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#contactMe">Contact</a>
-          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#aboutMe">About</a>
-          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#myProjects">Projects</a>
+          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#contactMe">About</a>
+          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#aboutMe">Projects</a>
+          <a class="navLink" onmouseover="showArrow()" onmouseleave="hideArrow()" href="#myProjects">Contact</a>
         </div>
       </div>
       <img id="arrowNavBar" src="media/icons/png/003-arrow.png" width="40">
     </nav>
 
+    <!-- Main header that introduces me to you :D -->
     <header id="theMainHook">
       <div id="theMainIntro">
         <h1 id="theBigDealTitle">Paxxous.</h1>
@@ -34,12 +36,24 @@
         <hr id="hookBreak">
 
         <div id="myLinks">
-          <img src="media/icons/png/001-github.png" width="32">
-          <img src="media/icons/png/002-youtube.png" width="32">
-          <img src="media/icons/png/004-patreon.png" width="32">
+          <a target="_blank" href="https://github.com/Paxxous">
+            <img src="media/icons/png/001-github.png" width="32">
+          </a>
+          <a target="_blank" href="https://www.youtube.com/channel/UCFVw6QqeUbshvw2vmIv94mg/">
+            <img src="media/icons/png/002-youtube.png" width="32">
+          </a>
+          <a target="_blank" href="https://www.patreon.com/Paxxous">
+            <img src="media/icons/png/004-patreon.png" width="32">
+          </a>
         </div>
       </div>
     </header>
+
+    <section id="aboutMe">
+      <div>
+        
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>

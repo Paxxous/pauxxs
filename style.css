@@ -141,6 +141,30 @@ p {
 /* Contact me */
 #contactMe {
   height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#contactMeContact > h1 {
+  font-size: 6rem;
+}
+
+#contactMeContact > p {
+  font-size: 1.2rem;
+}
+
+#aboutMeSittingImage {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+#contactMeEmail {
+  text-decoration: underline;
+}
+
+#contactMeEmail:hover {
+  text-decoration: none;
 }
 
 /* Animations */
